@@ -1,0 +1,21 @@
+Introduction
+------------
+
+twittermon.pl is a script which runs in the background as a daemon and monitors twitter.com for
+interesting content (based on keywords). Found information is sent to syslog
+
+The script can also generate (CEF events).
+
+More information is available here on http://blog.rootshell.be
+
+Installation
+------------
+This Perl script requires the following module:
+AnyEvent::Twitter::Stream
+Available here: 
+http://search.cpan.org/~miyagawa/AnyEvent-Twitter-Stream-0.22/lib/AnyEvent/Twitter/Stream.pm
+
+v1.0 - 2012/02/27
+-----------------
+Initial release
+
